@@ -4,7 +4,7 @@ from days.one.slice_lines import slice_lines
 
 
 def day1_part2(launch_type: str):
-    path = './assets/day1_part2.txt' if launch_type == 'test' else './assets/day1.txt'
+    path = './assets/day1_test2.txt' if launch_type == 'test' else './assets/day1.txt'
     lines = slice_lines(path)
     total = 0
     for line in lines:
